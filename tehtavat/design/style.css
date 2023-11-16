@@ -139,6 +139,10 @@ header h1 {
 
 	font-family: 'Roboto Condensed', sans-serif;
 	box-shadow: 0px 2px 10px rgba(0,0,0,50%);
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	text-align: center;
 
 }
 
