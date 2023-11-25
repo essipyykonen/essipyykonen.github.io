@@ -1,0 +1,172 @@
+body {
+		background-color: #f6f2f9;
+}
+
+h1 {
+		font-family: 'Playfair Display', serif;
+}
+
+h2 {
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+		text-align: center;
+		margin-bottom: 50px;
+		font-family: 'Oswald', sans-serif;
+}
+
+p {
+		font-family: 'Roboto Condensed', sans-serif;	
+}
+
+header {
+		text-align: justify;
+		padding-left: 40px;
+		padding-right: 40px;
+}	
+
+.logo {
+		margin-top: -20px;
+		margin-bottom: -50px;
+		margin-left: -30px;
+}	
+
+.col-md-12 {
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 20px;
+		margin-bottom: -50px;
+}
+
+.col-md-4 {
+		background-color: #f6f2f9;
+		margin-bottom: 20px;
+}
+
+.coding1 {
+		text-align: center;
+		margin-top: 10px;
+}
+
+.coding2 {
+		text-align: center;
+		margin-top: 10px;
+}
+
+.coding3 {
+		text-align: center;
+		margin-top: 10px;
+}
+
+.col-sm-4 {
+		background-color: #b49cf4;
+		margin-left: 7%;
+		border-radius: 20px;
+		padding: 15px;
+		margin-bottom: 70px;
+}
+
+.col-sm-6 {
+		background-color: #dbc4ff;
+		margin-left: 5%;
+		border-radius: 20px;
+		padding: 15px;
+		margin-bottom: 70px;
+}
+
+.col-md-6 {
+		margin-bottom: 50px;
+}
+
+.border {
+		border-top: 2px solid #8553f5;
+		background-color: #efe4ff;
+}
+
+.col-md-2 {
+		margin-bottom: 50px;
+}
+
+
+
+article {
+		text-align: center;
+		margin-left: 13.5%;
+}
+
+footer {
+		border-top: 2px solid #8553f5;	
+}
+
+.row {
+		margin-bottom: 50px;
+}
+
+nav {
+		text-align: center;
+		background-color: #b49cf4;
+		margin-bottom: 50px;
+}
+
+.px-3 {
+		border-bottom: 3px solid #8553f5;
+}
+
+h1{
+		text-align: center;
+}
+
+main {
+		padding: 40px;
+}
+
+.btn-primary {
+		color: black;
+		background-color: white;
+		border-color: #7b3ffa;
+}
+
+.btn-primary:hover {
+		color: white;
+		background-color: #8553f5;
+		border-color: #a078f5;
+}
+
+.btn-light:hover {
+		color: white;
+		background-color: #8553f5;
+		border-color: #a078f5;
+}
+
+.btn-light {
+		color: black;
+		background-color: white;
+		border-color: #7b3ffa;
+}
+
+.btn-success {
+		color: black;
+		background-color: white;
+		border-color: #7b3ffa;
+		float: right;
+}
+
+.btn-success:hover {
+		color: white;
+		background-color: #a078f5;
+		border-color: #a078f5;
+}
+
+.btn-outline-secondary {
+		color: black;
+		background-color: white;
+		border-color: #7b3ffa;
+}
+
+.btn-outline-secondary:hover {
+		color: white;
+		background-color: #a078f5;
+		border-color: #a078f5;
+}
