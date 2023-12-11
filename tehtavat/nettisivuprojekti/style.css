@@ -42,10 +42,15 @@ ul {
 
 ol {
 		font-family: 'Roboto Condensed', sans-serif;
+		text-align: justify;
 }
 
 a {
 		font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+		margin-bottom: 100px;
 }
 
 /* Semantic Elements */
