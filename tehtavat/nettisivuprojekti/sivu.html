@@ -1,0 +1,169 @@
+<!--- HTML-sivu --->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Etusivu</title>
+	</head>
+	<body>
+<!-- Fontit -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+		
+		<div class="header">
+			<img src="herkkuhetkilogo.png" width="200" height="auto">
+			<h1>Herkkuhetki</h1>
+		</div>
+		<nav>
+			<p><b><i>"Missä makuelämykset syntyvät ja herkulliset hetket kestävät pidempään kuin uunista tuoksuvan pullan houkutteleva tuoksu."</i></b></p>
+		</nav>
+	<main>
+	
+		<h2>Miksi leivonta?</h2>
+	<article class="miksi-leivonta">
+		<p>Leipominen on harrastus, joka voi tuoda ihmisiä yhteen, kun jaetaan erilaisia reseptejä sekä vinkkejä.</p>
+		<p>Kuitenkin voi miettiä, että miksi kannattaisi leipoa? Onko siitä millaisia hyötyjä? Niistä kerromme tässä osiossa hieman yleisellä tasolla muutaman hyvän syyn ruveta leipomaan.</p>
+		<br>
+		<p><b>Luovuus:</b> Leipominen antaa mahdollisuuden ilmaista omaa luovuuttaan. Leipomisessa voit kokeilla erilaisia reseptejä, muunnella niitä sekä tehdä omanlaisia herkkuja ja luonnoksia.</p>
+		<p><b>Rentoutuminen:</b> Monet leipojat kokevat leivonnan rentouttavana sekä hyvänä stressin lievittäjänä. Leipomisessa saa mahdollisuuden keskittyä hetkeksi vain yhteen asiaan ja unohtaa muut arjen kiireet tai muut stressaavat tekijät.</p>
+		<p><b>Taloudellisuus:</b> Kun leipoo itse, voi leivonnaisten saamisesta taloudellisesti halvempaa kuin kaupasta ostettuna. Kun ostaa raaka-aineita suurina erinä kaupasta, voi säästää rahaa pitkällä aikavälillä.</p>
+		<p><b>Palkitseva tunne:</b> Oma lopputulos tekemistään leivonnaisista voi olla hyvin palkitsevaa, kun näkee omien käsien jäljen ja pystyy tarjoamaan omia luonnoksiaan muille läheisille. Myöskin itse tekemä leivos voi maistua jopa paremmalta, kuin kaupasta ostettu samankaltainen leivos.</p>
+		<p><b>Tietoisuus ravinnosta:</b> Kun pystyy itse päättämään, millaisia ja minkä laatuisia raaka-aineita aikoo hankkia leipomiseen, voi valita terveellisimpiä vaihtoehtoja ja samalla välttää tarpeettomia lisäaineita. Tämän avulla jos tuntuu hieman huonolta herkutella omia luonnoksiaan, niin terveellisimmillä raaka-aineilla voi paha mieli välttyä.</p>
+	</article>
+	<div class="fieldset-tekniikat">
+	<fieldset>
+		<legend>Koetko pitäväsi leipomisesta?</legend>
+		<label for="yes">Kyllä</label><br>
+		<input type="checkbox" id="yes" name="yes"><br>
+		<label for="no">En</label><br>
+		<input type="checkbox" id="no" name="no">
+		<br><br>
+		<input type="submit" value="Lähetä">
+	</fieldset>
+	<div class="tekniikat">
+		<ol>
+		<p>Käytetyt uudet tekniikat:</p>
+			<li><p>HTML-lomake</p></li>
+			<li><p>Box-shadow</p></li>
+			<li><p>Väriliuku</p></li>
+		</ol>
+	</div>
+	</div>
+	
+		<h2>Reseptejä</h2>
+	<article class="reseptit">
+		<article class="leivonnaiset">
+			<h3>Mokkapalat</h3>
+			<img src="mokkapalat.jpg" class="article-image"/>
+				<p>Mokkapalat ovat herkullisia suklaakakkupaloja, joissa on pehmeä rakenne ja tasapainoinen suklaa-kahvimaku. Suklaakuorrutus lisää makeutta sopivasti. Yksinkertaisesti nautittava herkku, joka tarjoaa pienen ilon hetken.</p>
+				<br>
+				<a class="button" href=""/>
+				Resepti
+				</a>
+		</article>
+		<article class="leivonnaiset">
+			<h3>Juustokakku</h3>
+			<img src="cake.jpg" class="article-image"/>
+				<p>Juustokakku on pehmeä ja kermainen herkku, jossa täyteläinen juustoseos lepää keksipohjalla. Päällä voi olla raikasta marjakastiketta tai hedelmäpaloja. Ihanan nautittava herkku, joka tarjoaa makumatkan juuston ja makeuden maailmaan.</p>
+				<a class="button" href=""/>
+				Resepti
+				</a>
+		</article>
+		<article class="leivonnaiset">
+			<h3>Muffinit</h3>
+			<img src="cupcake.jpg" class="article-image"/>
+				<p>Muffinit ovat meheviä leivonnaisia, joissa on ilmava rakenne ja herkullinen maku. Pinnalla saattaa olla kevyt kuorrutus tai herkullinen kuorrutus kerroksen päällä. Mukavan pehmeä herkku, joka tarjoaa pienen makumatkan makeiden muffinien maailmaan.</p>
+				<a class="button" href=""/>
+				Resepti
+				</a>
+		</article>
+	</article>
+	
+		<h2>Vinkkejä leivontaan</h2>
+	<article class="leivontavinkitjatarvikkeet">
+	<img src="hehkulamppu.png" class="pikkukuvat-img">
+	<div class="kaikkivinkit">
+	<article class="vinkit">
+		<ol>
+			<li><p>Mittaa ainekset oikein</p></li>
+			<li><p>Ota ainekset huoneenlämpöön</p></li>
+			<li><p>Vältä ylisekoittamista</p></li>
+			<li><p>Käytä tuoretta leivinjauhetta</p></li>
+			<li><p>Esilämmitä uuni</p></li>
+		</ol>
+	</article>
+	<article class="vinkit2">
+		<ol start="6">
+			<li><p>Esilämmitä uuni</p></li>
+			<li><p>Kokeile laadukkaita ainesosia</p></li>
+			<li><p>Koristele huolella</p></li>
+			<li><p>Seuraa reseptiä, mutta ole luova</p></li>
+			<li><p>Nauti luonnoksistasi!</p></li>
+		</ol>
+	</article>
+	</div>
+		<h2>Mitä tarvitsee leipomiseen?</h2>
+	<img src="kaulin.png" class="pikkukuvat-img">
+	<div class="kaikkitarvikkeet">
+	<article class="tarvikkeet">
+		<ol>
+			<li><p>Mittakupit ja -lusikat</p></li>
+			<li><p>Taikinakulho</p></li>
+			<li><p>Vispilä, kaulin ja lasta</p></li>
+			<li><p>Leivin- tai pitsipaperi</p></li>
+			<li><p>Kaulin</p></li>
+		</ol>
+	</article>
+	<article class="tarvikkeet2">
+		<ol start="6">
+			<li><p>Kakkuvuoka ja paistinpannu</p></li>
+			<li><p>Uunikestävät muotit</p></li>
+			<li><p>Sähkövatkain tai sekoitin</p></li>
+			<li><p>Siivilä</p></li>
+			<li><p>Hyvää mieltä!</p></li>
+		</ol>
+	</article>
+	</article>
+	</div>
+	
+		<h2>Eikö leivonta onnistu?</h2>
+	<article class="leivontakurssit">
+			<p>Joskus voi tuntua siltä, ettei leipomisesta tule mitään. Tai voi olla vasta aloittanut leivonnan tai sen aloittamisen harkinnan! Jos koet olevasi osa tätä porukkaa, niin ei hätää. Alapuolella (tai sivuvalikossa) olevasta linkistä pääset lukemaan Herkkuhetken kursseista lisää tietoa.</p>
+			<p>Tarjoamme jokaiselle leivonnan fanille - olit sitten joko aloittelija tai kymmenen vuoden mestari - leivontakursseja reiluun hintaan.</p>
+			<p><b>Kiinnostuitko?</b> Klikkaa alla olevasta <b>linkistä!</b></p>
+		<a href="index.html">Lisätietoja kursseistamme</a>
+	</article>
+	
+		<h2>Leivontafanien oma yhteisö</h2>
+	<article class="foorumi">
+			<p>Herkkuhetkeltä löytyy myös oma laaja ja turvallinen yhteisö kaikille leivonnan ystäville.</p>
+			<p>Voit keskustelufoorumillamme kysyä mistä vain leivontaan liittyvästä asiasta, mikä vaivaa hermojasi. Oli se sitten joku ongelma reseptin kanssa, kaipaat uusia, luovia reseptejä tai haluat vain tukea ja kannustusta yhteisömme jäseniltä, niin takuuvarmasti joku tulee apuun.</p>
+			<a href="">Liity mukaan!</a>
+	</article>
+	
+	</main>
+	
+	<aside>
+		<img src="herkkuhetkilogo2.png" width="200" height="auto">
+		<ul>
+			<li><a href="sivu.html">Etusivu</a></li>
+			<br><br><br><br>
+			<li><a href="index.html">Leivontakurssit (Bootstrap)</a></li>
+			<br><br><br><br>
+			<li><a href="">Reseptikirjasto</a></li>
+			<br><br><br><br>
+			<li><a href="">Yhteystiedot</a></li>
+		</ul>
+	</aside>
+	</body>
+	<footer>
+		<p>© Canva</p>
+	</footer>
+</html>

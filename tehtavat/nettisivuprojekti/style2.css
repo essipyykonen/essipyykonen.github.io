@@ -1,0 +1,312 @@
+/*--- Bootstrap-sivu ---*/
+
+body {
+		background-color: #f9eced;
+		display: flex;
+		flex-wrap: wrap;
+		margin:0;
+		padding:0;
+		overflow-x: hidden;
+}
+
+/* Text */
+
+h2 {
+		text-align: center;
+		font-family: 'Hedvig Letters Serif', serif;
+}
+
+h3 {
+		text-align: left;
+		margin-bottom: 50px;
+		font-family: 'Hedvig Letters Serif', serif;
+}
+
+h4 {
+		font-family: 'Hedvig Letters Serif', serif;
+}
+
+p {
+		font-family: 'Roboto Condensed', sans-serif;	
+}
+
+ul {
+		font-family: 'Roboto Condensed', sans-serif;
+}
+
+.border {
+		border-top: 2px solid #8553f5;
+		background-color: #efe4ff;
+}
+
+/* Semantic Elements */
+
+.header {
+		background-color: #f2d1d3;
+		margin-top: -10px;
+		margin-bottom: -15px;
+		padding-bottom: 10px;
+		padding-top: 5px;
+		width: 100%;
+}
+
+.header img {
+		float: left;
+}
+
+.header h1 {
+		position: relative;
+		top: 18px;
+		left: 10px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		margin-top: 30px;
+		font-size: 100px;
+		text-align: left;
+		font-family: 'Hedvig Letters Serif', serif;
+}	
+
+.navbar {
+		width: 100%;
+		background-color: #8cc8bc;
+		color: black;
+		margin-top: 10px;
+}
+
+main {
+		padding: 40px;
+		background-color: #f9eced;
+		margin-top: -24px;
+		width: 100%;
+}
+
+article {
+		text-align: center;
+		border: 5px solid #f2d1d3;
+		background-color: white;
+		border-radius: 20px;
+		width: 60%;
+		justify-content: center;
+		float: left;
+		margin-left: 80px;
+		display: flex;
+		align-items: center;
+}
+
+footer {
+		width: 100%;
+		background-color: #f2d1d3;
+		font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Rows */
+
+.row {
+		margin-bottom: 50px;
+}
+
+.row.row-cols-1 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+		margin: auto;
+}
+
+/* Columns */
+
+.col-sm-2 {
+		border: 5px solid #f2d1d3;
+		border-radius: 20px;
+		margin-right: 40px;
+		background-color: white;
+		padding: 10px;
+		width: 300px;
+		margin: 40px;
+}
+
+.col-sm-4{
+		background-color: #8cc8bc;
+		border-radius: 20px;
+		padding: 10px;
+		float: right;	
+}
+
+.col-sm-5 {
+		background-color: #f2d1d3;
+		border-radius: 20px;
+		margin-right: 70px;
+		margin-left: 45px;
+		padding: 10px;
+}
+
+.col-sm-8 {
+		width: 40%;
+		background-color: #f2d1d3;
+		border-radius: 20px;
+		margin: auto;
+		padding: 10px;
+		margin-top: 50px;
+}
+
+.col-sm-12 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: auto;
+		width: 89%;
+}
+
+.col-md-2 {
+		margin-bottom: 50px;
+}
+
+.col-md-4 {
+		background-color: #f6f2f9;
+		margin-bottom: 20px;
+}
+
+.col-md-6 {
+		margin-bottom: 50px;
+}
+
+.col-md-8 {
+		text-align: center;
+		margin: auto;
+		float: left;
+		padding: 10px;
+}
+
+/* Buttons */
+
+.btn.btn-info {
+		background-color: #8cc8bc;
+		color: black;
+		border-color: black;
+		margin-bottom: 10px;
+		margin-right: 40px;
+}
+
+.btn.btn-info:hover {
+		background-color: #f9eced;
+		color: black;
+		border-color: black;
+}
+
+.btn.btn-primary {
+		background-color: #f2d1d3;
+		color: black;
+		border-color: black;
+}
+
+.btn.btn-primary:hover {
+		background-color: #8cc8bc;
+		color: black;
+		border-color: black;
+}
+
+.w-100.btn {
+		background-color: #f2d1d3;
+		color: black;
+		border-color: black;
+}
+
+.w-100.btn:hover {
+		background-color: #8cc8bc;
+		color: black;
+		border-color: black;
+}
+
+/* Images */
+
+#piirakka:hover {
+		transform:scale(2.0);
+}
+
+#keksit:hover {
+		transform:scale(2.0);
+}
+
+#kakku:hover {
+		transform:scale(1.8);
+}
+
+#pokaali {
+		width: 200px;
+		height: auto;
+		float: right;
+		position: relative;
+}
+
+/* Something Else */
+
+.lisätietoja {
+		display: flex;
+		flex-wrap: wrap;
+		width: 88%;
+		justify-content: center;
+}
+
+.ilmoittautuminen{
+		width: 88%;
+		background-color: #f2d1d3;
+		border-radius: 20px;
+		text-align: center;
+		margin: auto;
+}
+
+.leivontahaasteet {
+		background-color: white;
+		border-radius: 20px;
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border: 5px solid #f2d1d3;
+		margin: auto;
+}
+
+.kannustus {
+		width: 70%;
+		float: right;
+		margin-right: 80px;
+		justify-content: center;
+		text-align: center;
+		margin-top: -350px;
+}
+
+.card-header.py-3 {
+		background-color: #8cc8bc;
+}
+
+.card.mb-3 {
+		border: 5px solid #f2d1d3;
+		border-radius: 20px;
+		max-width: 400px;
+		margin: auto;
+		justify-content: center;
+}
+
+.d-flex {
+		font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+		main {
+			width: 100%;
+			flex-direction: column;
+		}
+		.header h1 {
+			font-size: 80px;
+		}
+		.kannustus {
+			width: 60%;
+			margin-top: 50px;
+		}
+		.palkinnot {
+			width: 100%;
+		}
+		article {
+			flex-wrap: wrap;
+		}
+}
