@@ -91,6 +91,7 @@ article {
 		margin-left: 80px;
 		display: flex;
 		align-items: center;
+		margin-bottom: 50px;
 }
 
 footer {
@@ -252,6 +253,8 @@ footer {
 		border-radius: 20px;
 		text-align: center;
 		margin: auto;
+		margin-top: 150px;
+		margin-bottom: 100px;
 }
 
 .leivontahaasteet {
@@ -262,6 +265,10 @@ footer {
 		padding-left: 10px;
 		border: 5px solid #f2d1d3;
 		margin: auto;
+}
+
+.palkinnot {
+		margin-top: 50px;
 }
 
 .kannustus {
